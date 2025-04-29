@@ -2,10 +2,10 @@ Pokémon Explorer
 An interactive Pokémon search and filter app built using Next.js and PokeAPI. This app fetches the first 150 Pokémon from the PokeAPI and displays them in a user-friendly, responsive design, with real-time search and filter functionality.
 
 🔗 Live Application
-View the live app here
+https://pokemon-explorer-7aul.vercel.app/
 
 💻 GitHub Repository
-GitHub Repository: pokemon-explorer
+https://github.com/PraveenaAcharya/pokemon-explorer
 
 🧩 Features
 🔍 Real-time Search: Search Pokémon by name with live filtering.
