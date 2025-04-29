@@ -33,8 +33,9 @@ export default function Home() {
         );
         
         setPokemon(pokemonDetails);
-      } catch (err) {
-        setError('Failed to fetch Pokemon. Please try again later.');
+      } catch (error) {
+        const errorMessage = error instanceof Error ? error.message : 'An unknown error occurred';
+        setError(`Failed to fetch Pokemon: ${errorMessage}`);
       } finally {
         setLoading(false);
       }
