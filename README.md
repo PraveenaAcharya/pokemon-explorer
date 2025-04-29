@@ -1,36 +1,86 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Pokémon Explorer
+An interactive Pokémon search and filter app built using Next.js and PokeAPI. This app fetches the first 150 Pokémon from the PokeAPI and displays them in a user-friendly, responsive design, with real-time search and filter functionality.
 
-## Getting Started
+🔗 Live Application
+View the live app here
 
-First, run the development server:
+💻 GitHub Repository
+GitHub Repository: pokemon-explorer
 
-```bash
+🧩 Features
+🔍 Real-time Search: Search Pokémon by name with live filtering.
+
+🎮 Type Filter: Filter Pokémon by their types (e.g., Fire, Water, Grass, etc.).
+
+📦 Data Fetching: Retrieves data for the first 150 Pokémon from the PokeAPI.
+
+📱 Responsive Design: Optimized for both desktop and mobile views.
+
+🎨 Custom Styling: Built using CSS modules for scoped and modular styling.
+
+🛠️ Technologies Used
+Next.js: Framework for building React applications.
+
+TypeScript: For type safety and better development experience.
+
+React Hooks: For managing state and side-effects in functional components.
+
+PokeAPI: Provides Pokémon data.
+
+CSS Modules: For component-level styling.
+
+🧪 Setup and Installation
+To run this project locally, follow these steps:
+
+Clone the repository:
+
+bash
+Copy
+Edit
+git clone https://github.com/PraveenaAcharya/pokemon-explorer.git
+Navigate into the project directory:
+
+bash
+Copy
+Edit
+cd pokemon-explorer
+Install dependencies:
+
+bash
+Copy
+Edit
+npm install
+Run the development server:
+
+bash
+Copy
+Edit
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Open the app:
+Go to http://localhost:3000 in your browser.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+📁 Folder Structure
+graphql
+Copy
+Edit
+src/
+├── app/
+│   └── page.tsx         # Main page
+├── components/          # Reusable components (Card, SearchBar, Filter)
+├── styles/              # CSS Modules for styling
+├── types/               # TypeScript types (Pokemon)
+📖 Learn More
+Next.js Documentation
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Learn Next.js
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+PokeAPI Documentation
 
-## Learn More
+🔧 Deployment
+This project is deployed on Vercel for fast and reliable hosting. You can easily deploy your Next.js apps to Vercel by linking your GitHub repository to Vercel.
 
-To learn more about Next.js, take a look at the following resources:
+For more information on deploying Next.js apps, refer to the Vercel Documentation.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+📑 License
+This project is licensed under the MIT License – see the LICENSE file for details.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
